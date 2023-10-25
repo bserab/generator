@@ -5,8 +5,7 @@ export default function App() {
     const[name, setName] = useState("Bob");
     const[showStory,setStory]= useState(null);
     const[ukus,setUkus] = useState("us")
-    const[unit,setUnit] = useState("300 pounds");
-    const[temp,setTemp] = useState("94 fahrenheit");
+    
 
 
     var items1 = ["Willy the Goblin","Big Daddy","Father Christmas"];
