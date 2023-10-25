@@ -4,10 +4,10 @@ export default function App() {
     
     const[name, setName] = useState("Bob");
     const[showStory,setStory]= useState(null);
-    const[ukus,setUkus] = useState("us")
+    const[ukus,setUkus] = useState("us");
+    const[temp,setTemp] = useState("94 fahrenheit");
+    const[unit,setUnit] = useState("300 pounds");
     
-
-
     var items1 = ["Willy the Goblin","Big Daddy","Father Christmas"];
     var items2 = ["the soup kitchen","Disneyland","the White House"];
     var items3 = ["spontaneously combusted","melted into a puddle on the sidewalk","turned into a slug and crawled away"];
@@ -23,8 +23,8 @@ export default function App() {
             setTemp("34 centigrade");
             setUnit("21 stone");
         }else{
-            setTemp("300 pounds");
-            setUnit("94 fahrenheit");
+            setTemp("94 fahrenheit");
+            setUnit("300 pounds");
         }
     }
 
